@@ -1,0 +1,17 @@
+.navbar-shadow {
+    box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
+    background-color: #f1f1f1;
+    font-weight: 600;
+}
+
+@media(max-width:500px){
+    .navbar-shadow{
+        height:60px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1200px){
+    .navbar-shadow{
+        height:80px;
+    }
+}
